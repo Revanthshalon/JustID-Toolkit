@@ -1,0 +1,12 @@
+[package]
+name = "justid-toolkit"
+version = "0.1.0"
+edition = "2024"
+author = ["Revanth<revanthshalonraj@gmail.com>"]
+description = "Shared libraries across JustID ecosystem"
+
+[dependencies]
+serde = { version = "^1.0.219", features = ["derive"]}
+serde_json = { version = "^1.0.140"}
+uuid = { version = "^1.16.0", features = ["serde", "v4", "v5"]}
+chrono = { version = "^0.4.40", features = ["serde"]}
